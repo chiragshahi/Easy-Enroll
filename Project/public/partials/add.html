@@ -1,0 +1,86 @@
+<style>
+    table {
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    td, th {
+      border: 1px solid #dddddd;
+      text-align: left;
+      padding: 8px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #dddddd;
+    }
+    </style>
+
+<h4> Please search courses from the following drop down menus</h4>
+<select ng-model="term">
+    <option value="Noterm"></option>
+    <option value="Fall">Fall</option>
+    <option value="Spring">Spring</option>
+  </select>
+
+  <select ng-model="dept" style = "margin-left: 20px">
+    <option value="Nodept" ></option>
+    <option value="CS">Computer Science</option>
+    <option value="FINN">Accounting and Finance</option>
+  </select>
+
+  <input type="button" class="btn btn-primary" value="search" ng-click="search()" style = "margin-left: 20px"></input>
+    
+<table style = "margin-top: 30px" >
+    <tr>
+      <th>Name</th>
+      <th>Code</th>
+      <th>Section</th>
+      <th>Instructor</th>
+      <th>Timings</th>
+      <th>Credits</th>
+      <th>Status</th>
+      <th>Available Seats</th>
+      <th>Term</th>
+    </tr>
+    <tr ng-repeat='course in courses'>
+      <td>{{course.name}}</td>
+      <td>{{course.code}}</td>
+      <td>{{course.section}}</td>
+      <td>{{course.instructor}}</td>
+      <td>{{course.days}}, {{course.starttime}}, {{course.endtime}}</td>
+      <td>{{course.credits}}</td>
+      <td>{{course.classstatus}}</td>
+      <td>{{course.availableseats}}</td>
+      <td>{{course.courseoffering}}</td>
+    </tr>
+    
+  </table>
+  <br>
+  <div ng-bind-html="myHTML2"></div>
+
+  <table style = "margin-top: 30px" >
+    <tr ng-repeat='course in cart'>
+      <td>{{course}}</td>
+          </tr>
+    
+  </table>
+
+    
+
+  <h4 style = "margin-top: 40px"> Please select the course from the following drop down menu</h4>
+
+  <select  ng-model="coursesel" >
+        <option ng-repeat='course in courses' value="{{course.code}},{{course.section}} " >{{course.code}}, {{course.name}}, {{course.section}}</option>
+      </select>
+    
+      <input type="button" class="btn btn-primary" value="Add Course" ng-click="add()" style = "margin-left: 20px"></input>
+      <input type="button" class="btn btn-primary" value="Add to Cart" ng-click="addtocart()" style = "margin-left: 20px"></input>
+      <input type="button" class="btn btn-primary" value="Drop from Cart" ng-click="dropfromcart()" style = "margin-left: 20px"></input>
+
+      <br>
+      <br>
+    <div ng-bind-html="myHTML1"></div>
+    
+    
+    
