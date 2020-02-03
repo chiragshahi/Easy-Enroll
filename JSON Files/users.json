@@ -1,0 +1,87 @@
+{
+    "_id" : ObjectId("5cb3a25c01f892abd8c29f4f"),
+    "firstname" : "Kanika",
+    "lastname" : "Rawat",
+    "email" : "kxr180008@utdallas.edu",
+    "password" : "$2b$10$Xcs2wy5oMsOXJy6AINimAetID1IhWnjWPm302TN2y9WVHG5tHEsMi",
+    "pastcourses" : {
+        "Fall2018" : []
+    },
+    "pastcoursesarr" : [],
+    "currentcourses" : [ 
+        "CS6314.001", 
+        "CS6350.001", 
+        "CS6364.001"
+    ],
+    "major" : "Computer Science",
+    "gpa" : 3.75,
+    "cart" : [],
+    "phonenumber" : 1231811254,
+    "address" : "800 w campbell rd, Richardson, TX",
+    "credits" : 0,
+    "isadmin" : "0"
+}
+
+{
+    "_id" : ObjectId("5cb3a2ff01f892abd8c29fad"),
+    "firstname" : "Admin",
+    "lastname" : "admin",
+    "email" : "admin@utdallas.edu",
+    "password" : "$2b$10$7R3gnVpqa9ACtrnWBEqWduWXbHpUIyRIZWEM9wf47jLzxvsksXYiu",
+    "pastcourses" : {},
+    "currentcourses" : [],
+    "major" : "",
+    "gpa" : 0,
+    "phonenumber" : 1561321254,
+    "address" : "800 w campbell rd, Richardson, TX",
+    "credits" : 0,
+    "isadmin" : "1",
+    "term" : "Fall"
+}
+
+{
+    "_id" : ObjectId("5cb529b801f892abd8c2cc27"),
+    "firstname" : "Talal",
+    "lastname" : "Muneer",
+    "email" : "cxm180004@utdallas.edu",
+    "password" : "$2b$10$Xcs2wy5oMsOXJy6AINimAetID1IhWnjWPm302TN2y9WVHG5tHEsMi",
+    "pastcourses" : [ 
+        {
+            "CS6375.001" : [ 
+                "A", 
+                "Fall2018"
+            ]
+        }, 
+        {
+            "CS6360.001" : [ 
+                "A", 
+                "Fall2018"
+            ]
+        }, 
+        {
+            "CS6349.001" : [ 
+                "A", 
+                "Fall2018"
+            ]
+        }
+    ],
+    "pastcoursesarr" : [ 
+        "CS5343", 
+        "CS6349.001", 
+        "CS6360.001", 
+        "CS6375.001"
+    ],
+    "cart" : [ 
+        "CS6334.001"
+    ],
+    "currentcourses" : [ 
+        "CS6350.001", 
+        "CS6314.001"
+    ],
+    "major" : "Computer Science",
+    "gpa" : 4.0,
+    "phonenumber" : 1231811254,
+    "address" : "800 w campbell rd, Richardson, TX",
+    "credits" : 3,
+    "isadmin" : "0"
+}

@@ -1,0 +1,311 @@
+{
+    "_id" : ObjectId("5cb3a72e01f892abd8c2a200"),
+    "name" : "Database Design",
+    "code" : "CS6360",
+    "section" : "1",
+    "instructor" : "Murat Kantarcioglu",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Methods, principles, and concepts that are relevant to the practice of database software design. Database system architecture; conceptual database models; relational and object-oriented databases; database system implementation; query processing and optimization; transaction processing concepts, concurrency, and recovery; security.",
+    "totalseats" : 44,
+    "enrolled" : 3,
+    "availableseats" : 41,
+    "location" : "ECSN 2.120",
+    "starttime" : "10:30:00",
+    "endtime" : "11:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5caa41b4bea1044200c7ffe5"),
+    "name" : "Web Programming Languages",
+    "code" : "CS6314",
+    "section" : "1",
+    "instructor" : "Nurcan Yuruk",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Advanced understanding of web architecture, standards, protocols, tools, and technologies. Tools required for web programming including HTML, CSS, and JavaScript; XML and database technologies; server-side programming using PHP; Web security protocols and standards; techniques and algorithms related to web services, cloud computing, and semantic web. ",
+    "totalseats" : 60,
+    "enrolled" : 2,
+    "availableseats" : 58,
+    "location" : "ECSS-2.410",
+    "starttime" : "08:30:00",
+    "endtime" : "09:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a75701f892abd8c2a226"),
+    "name" : "Database Design",
+    "code" : "CS6360",
+    "section" : "3",
+    "instructor" : "Nurcan Yuruk",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Methods, principles, and concepts that are relevant to the practice of database software design. Database system architecture; conceptual database models; relational and object-oriented databases; database system implementation; query processing and optimization; transaction processing concepts, concurrency, and recovery; security.",
+    "totalseats" : 49,
+    "enrolled" : 34,
+    "availableseats" : 15,
+    "location" : "ECSN 2.306",
+    "starttime" : "08:30:00",
+    "endtime" : "09:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a77f01f892abd8c2a243"),
+    "name" : "Machine Learning",
+    "code" : "CS6375",
+    "section" : "3",
+    "instructor" : "Anurag Nagar ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Algorithms for training perceptions and multi-layer neural nets: back propagation, Boltzmann machines, and self-organizing nets. The ID3 and the Nearest Neighbor algorithms. Formal models for analyzing learnability: exact identification in the limit and probably approximately correct (PAC) identification. Computational limitations of learning machines.",
+    "totalseats" : 60,
+    "enrolled" : 47,
+    "availableseats" : 13,
+    "location" : "ECSN 2.306",
+    "starttime" : "04:00:00",
+    "endtime" : "05:15:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Tuesday", 
+        "Thursday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a7d901f892abd8c2a27a"),
+    "name" : "Machine Learning",
+    "code" : "CS6375",
+    "section" : "1",
+    "instructor" : "Anurag Nagar ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Algorithms for training perceptions and multi-layer neural nets: back propagation, Boltzmann machines, and self-organizing nets. The ID3 and the Nearest Neighbor algorithms. Formal models for analyzing learnability: exact identification in the limit and probably approximately correct (PAC) identification. Computational limitations of learning machines.",
+    "totalseats" : 60,
+    "enrolled" : 47,
+    "availableseats" : 13,
+    "location" : "ECSN 2.306",
+    "starttime" : "07:00:00",
+    "endtime" : "08:15:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a85b01f892abd8c2a2c8"),
+    "name" : "Network Security",
+    "code" : "CS6349",
+    "section" : "1",
+    "instructor" : "Kamil Sarac ",
+    "prereq" : "CS5390",
+    "dept" : "CS",
+    "coursedescription" : " This course covers theoretical and practical aspects of network security. The topics include use of cryptography for building secure communication protocols and authentication systems; security handshake pitfalls, Kerberos and PKI, security of TCP/IP protocols including IPsec, BGP security, VPNs, IDSes, firewalls, and anonymous routing; security of TCP/IP applications; wireless LAN security; denial-of-service defense. Students are required to do a programming project building a distributed application with certain secure communication features and required to participate in several network security lab exercises and cyber war games.",
+    "totalseats" : 40,
+    "enrolled" : 20,
+    "availableseats" : 20,
+    "location" : "ECSN 2.306",
+    "starttime" : "04:00:00",
+    "endtime" : "05:15:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a88101f892abd8c2a2e6"),
+    "name" : "Virtual Reality",
+    "code" : "CS6334",
+    "section" : "1",
+    "instructor" : "Ryan McMahan  ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : "  Theory and practice of virtual reality (VR). Provides in-depth overview of VR, including input devices, output devices, 3D navigation techniques, 3D selection and manipulation techniques, system control techniques, interaction fidelity, scenario fidelity, display fidelity, design guidelines, and evaluation methods.",
+    "totalseats" : 60,
+    "enrolled" : 29,
+    "availableseats" : 31,
+    "location" : "ECSS 2.112",
+    "starttime" : "02:45:00",
+    "endtime" : "04:00:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Tuesday", 
+        "Thursday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a89a01f892abd8c2a2f3"),
+    "name" : "Artificial Intelligence",
+    "code" : "CS6364",
+    "section" : "1",
+    "instructor" : "Richard Min   ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : "  Design of machines that exhibit intelligence. Particular topics include: representation of knowledge, vision, natural language processing, search, logic and deduction, expert systems, planning, language comprehension, and machine learning.",
+    "totalseats" : 40,
+    "enrolled" : 20,
+    "availableseats" : 20,
+    "location" : "CR 1.212",
+    "starttime" : "02:45:00",
+    "endtime" : "04:00:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a8b801f892abd8c2a304"),
+    "name" : "Design and Analysis of Computer Algorithms",
+    "code" : "CS6363",
+    "section" : "1",
+    "instructor" : "Ramaswamy Chandrasekaran ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " The study of efficient algorithms for various computational problems. Algorithm design techniques. Sorting, manipulation of data structures, graphs, matrix multiplication, and pattern matching. Complexity of algorithms, lower bounds, NP completeness. ",
+    "totalseats" : 49,
+    "enrolled" : 5,
+    "availableseats" : 44,
+    "location" : "ECSS 2.306",
+    "starttime" : "02:30:00",
+    "endtime" : "03:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Tuesday", 
+        "Thursday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a8f101f892abd8c2a328"),
+    "name" : "Business Finance",
+    "code" : "FIN3320",
+    "section" : "5",
+    "instructor" : "Stephen Peabody ",
+    "prereq" : "ACCT2301a",
+    "dept" : "FINN",
+    "coursedescription" : "Introduction to financial decision making and the valuation of business enterprises, with a particular focus on the use of discounted cash flow techniques in the selection of capital investment projects. Students will also be registered for an exam section. ",
+    "totalseats" : 49,
+    "enrolled" : 4,
+    "availableseats" : 45,
+    "location" : "JSOM 12.212",
+    "starttime" : "08:30:00",
+    "endtime" : "09:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Tuesday", 
+        "Thursday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3ac2f01f892abd8c2a50a"),
+    "name" : "Computer Vision",
+    "code" : "CS6384",
+    "section" : "3",
+    "instructor" : "Haim Schweitzer",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Advanced understanding of web architecture, standards, protocols, tools, and technologies. Tools required for web programming including HTML, CSS, and JavaScript; XML and database technologies; server-side programming using PHP; Web security protocols and standards; techniques and algorithms related to web services, cloud computing, and semantic web. ",
+    "totalseats" : 60,
+    "enrolled" : 10,
+    "availableseats" : 50,
+    "location" : "ECSS-2.410",
+    "starttime" : "08:30:00",
+    "endtime" : "09:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb530e101f892abd8c2d0fe"),
+    "name" : "Big Data Management",
+    "code" : "CS6350",
+    "section" : "1",
+    "instructor" : "Anurag Nagar ",
+    "prereq" : "CS5343",
+    "dept" : "CS",
+    "coursedescription" : " Algorithms for training perceptions and multi-layer neural nets: back propagation, Boltzmann machines, and self-organizing nets. The ID3 and the Nearest Neighbor algorithms. Formal models for analyzing learnability: exact identification in the limit and probably approximately correct (PAC) identification. Computational limitations of learning machines.",
+    "totalseats" : 60,
+    "enrolled" : 46,
+    "availableseats" : 14,
+    "location" : "ECSN 2.306",
+    "starttime" : "08:30:00",
+    "endtime" : "09:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Spring",
+    "days" : [ 
+        "Monday", 
+        "Wednesday"
+    ]
+}
+
+{
+    "_id" : ObjectId("5cb3a8d501f892abd8c2a317"),
+    "name" : "Financial Management",
+    "code" : "FIN6301",
+    "section" : "1",
+    "instructor" : "Yexiao Xu   ",
+    "prereq" : "OPRE6301",
+    "dept" : "FINN",
+    "coursedescription" : "Develops the basic concepts of finance with particular attention to their application to the financial management of companies. ",
+    "totalseats" : 49,
+    "enrolled" : 1,
+    "availableseats" : 48,
+    "location" : "JSOM 12.222",
+    "starttime" : "02:30:00",
+    "endtime" : "03:45:00",
+    "classstatus" : "open",
+    "credits" : 3,
+    "courseoffering" : "Fall",
+    "days" : [ 
+        "Tuesday", 
+        "Thursday"
+    ]
+}
